@@ -20,11 +20,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         let auteurDiv = document.createElement("div");
         auteurDiv.className = "flex-1 py-10";
-        let auteurNom = document.createElement("h3");
-        auteurNom.className = "font-medium text-gray-900";
-        auteurNom.textContent = firstName + " " + lastName;
+        let auteurFirstnameLastname = document.createElement("h3");
+        auteurFirstnameLastname.className = "font-medium text-gray-900";
+        auteurFirstnameLastname.textContent = firstName + " " + lastName;
         
-        auteurDiv.appendChild(auteurNom);
+        auteurDiv.appendChild(auteurFirstnameLastname);
         let messageConteneur = document.createElement("div");
         messageConteneur.className = "prose prose-sm mt-4 max-w-none text-gray-500";
         let messageText = document.createElement("p");
